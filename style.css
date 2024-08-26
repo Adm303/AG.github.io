@@ -46,3 +46,49 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+}
+
+a {
+    color: #ff7e5f;
+}
+
+button {
+    background-color: #ff7e5f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #feb47b;
+}
+
+a {
+    color: #ff7e5f;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #feb47b;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: white;
+    box-shadow:
