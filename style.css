@@ -91,4 +91,19 @@ section {
     margin-bottom: 20px;
     padding: 20px;
     background: white;
-    box-shadow:
+    box-shadow:0 2px 4px rgba(0, 0, 0, 0.1);
+
+.container {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.fade-in {
+    animation: fadeIn 2s ease-in-out;
+}
